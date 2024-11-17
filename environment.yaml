@@ -1,0 +1,36 @@
+name: VQA_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - nltk
+  - tqdm
+  - pillow
+  - tensorflow
+  - keras
+  - pytorch
+  - torchvision
+  - transformers
+  - datasets
+  - peft
+  - evaluate
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - transformers
+      - datasets
+      - evaluate
+      - peft
+      - nltk
+      - tqdm
+      - pillow
+      - tensorflow
+      - keras
+      - scikit-learn
+      - matplotlib
